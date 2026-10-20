@@ -8,4 +8,4 @@ Website for **Bucket Browser: Object Storage** for macOS, served with GitHub Pag
 
 Plain static HTML and CSS, no build step. Screenshots in `screenshots/` come from the app's demo mode.
 
-When the app is live, replace the placeholder App Store URL (`id0000000000`) in `index.html` with the app's Apple ID from App Store Connect.
+The download buttons link to https://apps.apple.com/app/id6825074732.
