@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support – Bucket Browser</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="icon" href="../icon.png">
+</head>
+<body>
+<main>
+<header>
+<img src="../icon.png" alt="">
+<a href="../">Bucket Browser</a>
+<nav><a href="../support/">Support</a><a href="../privacy/">Privacy</a></nav>
+</header>
+<h1>Support</h1>
+<p>Need help with Bucket Browser, found a bug, or have a feature idea? <a href="https://github.com/chiranjeebhub/bucket-browser-site/issues/new">Open an issue on GitHub</a> and include your macOS version, the app version (Bucket Browser › About), and the storage provider you use. Please never include your access keys.</p>
+
+<h2>Getting started</h2>
+<ol>
+<li>Open the app and choose Amazon S3, Cloudflare R2 or another S3-compatible service on the welcome screen.</li>
+<li>Enter an access key ID and secret access key. For R2 or other services, also enter the endpoint URL (for R2: <code>https://&lt;account-id&gt;.r2.cloudflarestorage.com</code>).</li>
+<li>Your buckets appear in the sidebar. Browse them like Finder folders.</li>
+</ol>
+
+<h2>Common questions</h2>
+<h3>My buckets don't show up</h3>
+<p>The key needs permission to list buckets (<code>s3:ListAllMyBuckets</code> on AWS, or an R2 token with "Admin Read" or wider). Keys scoped to a single bucket can't list buckets; check that the endpoint and region are correct.</p>
+<h3>I get "access denied" when uploading or deleting</h3>
+<p>The key is probably read-only. Create a key with write access for that bucket.</p>
+<h3>Do my accounts sync to my other Macs?</h3>
+<p>Yes, when iCloud Keychain is turned on in System Settings › Apple Account › iCloud. Accounts and keys sync through it, end-to-end encrypted.</p>
+<h3>Where are my keys stored?</h3>
+<p>In your Mac's Keychain only. They're never sent anywhere except as signatures on requests to your own storage endpoints. See the <a href="../privacy/">privacy policy</a>.</p>
+<h3>Keyboard shortcuts</h3>
+<p>⌘1, ⌘2, ⌘3 switch views. Space previews. ⌘I shows Get Info. ⇧⌘N makes a folder. ⇧⌘U uploads, ⌥⌘D downloads, ⌘⌫ deletes. ⌘[ and ⌘] go back and forward.</p>
+
+<h2>Requirements</h2>
+<p>macOS 14 Sonoma or later.</p>
+<footer>© 2026 Bucket Browser · <a href="https://github.com/chiranjeebhub/bucket-browser-site/issues">Contact</a></footer>
+</main>
+</body>
+</html>
