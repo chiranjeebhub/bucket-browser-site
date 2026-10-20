@@ -8,12 +8,11 @@
 <link rel="icon" href="../icon.png">
 </head>
 <body>
-<main>
-<header>
-<img src="../icon.png" alt="">
-<a href="../">Bucket Browser</a>
-<nav><a href="../support/">Support</a><a href="../privacy/">Privacy</a></nav>
-</header>
+<header class="topbar"><div class="wrap">
+<a class="brand" href="../"><img src="../icon.png" alt="">Bucket Browser</a>
+<nav><a class="opt" href="../#features">Features</a><a href="../support/">Support</a><a href="../privacy/">Privacy</a></nav>
+</div></header>
+<main class="doc">
 <h1>Support</h1>
 <p>Need help with Bucket Browser, found a bug, or have a feature idea? <a href="https://github.com/chiranjeebhub/bucket-browser-site/issues/new">Open an issue on GitHub</a> and include your macOS version, the app version (Bucket Browser › About), and the storage provider you use. Please never include your access keys.</p>
 
@@ -21,7 +20,7 @@
 <ol>
 <li>Open the app and choose Amazon S3, Cloudflare R2 or another S3-compatible service on the welcome screen.</li>
 <li>Enter an access key ID and secret access key. For R2 or other services, also enter the endpoint URL (for R2: <code>https://&lt;account-id&gt;.r2.cloudflarestorage.com</code>).</li>
-<li>Your buckets appear in the sidebar. Browse them like Finder folders.</li>
+<li>Your buckets appear in the sidebar. Browse them like folders on your Mac.</li>
 </ol>
 
 <h2>Common questions</h2>
@@ -38,7 +37,10 @@
 
 <h2>Requirements</h2>
 <p>macOS 14 Sonoma or later.</p>
-<footer>© 2026 Bucket Browser · <a href="https://github.com/chiranjeebhub/bucket-browser-site/issues">Contact</a></footer>
 </main>
+<footer><div class="wrap">
+<span>© 2026 Bucket Browser. Amazon S3 is a trademark of Amazon.com, Inc. Cloudflare R2 is a trademark of Cloudflare, Inc. Mac and Mac App Store are trademarks of Apple Inc.</span>
+<nav><a href="../support/">Support</a><a href="../privacy/">Privacy</a><a href="https://github.com/chiranjeebhub/bucket-browser-site/issues">Contact</a></nav>
+</div></footer>
 </body>
 </html>
