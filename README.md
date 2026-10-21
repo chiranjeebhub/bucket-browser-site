@@ -9,3 +9,7 @@ Website for **Bucket Browser: Object Storage** for macOS, served with GitHub Pag
 Plain static HTML and CSS, no build step. Screenshots in `screenshots/` come from the app's demo mode.
 
 The download buttons link to https://apps.apple.com/app/id6825074732.
+
+## Direct download
+
+The download link points to `releases/latest/download/BucketBrowser.dmg` on this repository's GitHub Releases (the app's source repository is private). `appcast.xml` is the Sparkle update feed for that edition; the app's `scripts/release-direct.sh` adds an entry to it for each release, and each entry's update archive is attached to the matching release.

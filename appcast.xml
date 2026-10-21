@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Bucket Browser</title>
+    <link>https://chiranjeebhub.github.io/bucket-browser-site/</link>
+    <description>Updates for the direct-download version of Bucket Browser.</description>
+    <language>en</language>
+  </channel>
+</rss>
